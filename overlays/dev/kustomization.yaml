@@ -10,4 +10,4 @@ transformers:
 - labels.yaml
 images:
 - name: 948094238297.dkr.ecr.ap-northeast-1.amazonaws.com/podinfo
-  newTag: 04ac4c31ffc222f06b137ba04c3fb33257d299f4
+  newTag: "null"
