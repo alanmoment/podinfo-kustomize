@@ -9,5 +9,5 @@ vars:
   - name: SERVICE_NAME
     objref:
       kind: Service
-      name: podinfo
+      name: frontend
       apiVersion: v1
