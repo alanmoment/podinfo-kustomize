@@ -8,3 +8,9 @@ resources:
   - namespace.yaml
 transformers:
   - labels.yaml
+vars:
+  - name: SERVICE_NAME
+    objref:
+      kind: Service
+      name: podinfo
+      apiVersion: v1
