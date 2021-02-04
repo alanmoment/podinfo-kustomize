@@ -11,9 +11,3 @@ transformers:
 images:
 - name: 948094238297.dkr.ecr.ap-northeast-1.amazonaws.com/podinfo
   newTag: latest
-vars:
-  - name: SERVICE_NAME
-    objref:
-      kind: Service
-      name: podinfo
-      apiVersion: v1

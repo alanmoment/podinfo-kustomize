@@ -2,6 +2,12 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - service.yaml
+  - ingress.yaml
   - deployment.yaml
   - hpa.yaml
-
+vars:
+  - name: SERVICE_NAME
+    objref:
+      kind: Service
+      name: podinfo
+      apiVersion: v1
